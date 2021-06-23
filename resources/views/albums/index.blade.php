@@ -34,7 +34,7 @@
       </div>
     </div>
   @else
-    <p>No Albums To Display</p>
+    <p>Нет альбомов</p>
   @endif
 
 @endsection

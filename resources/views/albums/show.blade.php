@@ -4,7 +4,7 @@
 	<h1>{{$album->name}}</h1>
 	<a href="/" class="button secondary">Вернуться на главную</a>
     @auth
-	<a href="/photos/create/{{$album->id}}" class="button">Загрузить альбом</a>
+	<a href="/photos/create/{{$album->id}}" class="button">Загрузить изображение в альбом</a>
     @endauth
   <img src="/storage/album_covers/{{$album->cover_image}}" width="90px" alt="asd" style="float:right">
 	<hr>
