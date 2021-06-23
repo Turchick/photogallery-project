@@ -1,2 +1,4 @@
 # photogallery_project
- Использовать php artisan storage:link
+ Использовать 
+```php php artisan storage:link
+```
